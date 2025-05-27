@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container 
+{
+    width: 80%;
+    margin: auto;
+    background-color: lightgray;
+    height: 70%;
+    
+    border-radius: 20px;
+}
+
+ul, ol 
+{
+    list-style-type: none;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+
+#pw-show-off
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+#pw-show-off .row input 
+{
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+#pw-show-off .row input:focus 
+{
+    outline: 0;
+}
+
+#pw-show-off .row label 
+{
+    font-size: 20px;
+}
+
+#pw-show-off .row .contains 
+{
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+#pw-show-off .row .contains span 
+{
+    line-height: 0;
+}
+
+#pw-show-off .row .contains .eyeon 
+{
+    display: none;
+}
